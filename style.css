@@ -1,0 +1,110 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    text-transform: uppercase;
+    color: #fff;
+    padding: 15px 47px;
+    background: #00AFDB;
+    transition: all 0.2s;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+}
+
+.btn:hover {
+    background: #009CC2;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+}
+
+
+.header-container {
+    max-width: 582px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 25px 0px;
+    background-color: #000000;
+}
+
+.nav {}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list__item {}
+
+.nav-list__item-link {
+    font-size: 1.4rem;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.nav-list__item-link--active {
+    font-size: 1.4rem;
+    color: #fff;
+    opacity: 1;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.your-life {
+    padding-top: 136px;
+    padding-bottom: 90px;
+    background-image: url("assets/img/bg-image.png");
+    background-position: center -95px;
+    color: #FFFFFF;
+}
+
+.your-life__title {
+    text-align: center;
+    font-size: 6.4rem;
+    font-weight: bold;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    line-height: 7.5rem;
+}
+
+.your-life__description {
+    max-width: 28%;
+    margin: 0 auto 45px auto;
+    font-size: 1.8rem;
+    line-height: 140%;
+    text-align: center;
+}
+
+.your-life__btn {
+    text-align: center;
+    margin: 0 auto 197px auto;
+}
+
+.your-life-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.your-life-links__item {
+}
+
+.your-life-links__item:not(:last-child) {
+    margin-right: 30px;
+}
