@@ -6,18 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>webdev</title>
     <link rel="stylesheet" href="reset.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <h1>webdev</h1>
     <header class="header">
         <div class="header-container">
             <nav class="nav">
                 <ul class="nav-list">
-                    <li class="nav-list__item"><a class="nav-list__item-link--active" href="#">About</a></li>
+                    <li class="nav-list__item"><a class="nav-list__item-link active" href="#">About</a></li>
                     <li class="nav-list__item"><a class="nav-list__item-link" href="#">Syllabus</a></li>
-                    <li class="nav-list__item"><a class="nav-list__item-link" href="#"><img src="assets/img/logo.svg" alt="logo"></a></li>
+                    <li class="nav-list__item"><a class="nav-list__item-link--img" href="#">
+                        <img src="assets/img/logo.svg" alt="logo">
+                            </a></li>
                     <li class="nav-list__item"><a class="nav-list__item-link" href="#">Projects</a></li>
                     <li class="nav-list__item"><a class="nav-list__item-link" href="#">FAQ</a></li>
                 </ul>
@@ -25,32 +28,125 @@
         </div>
     </header>
     <main class="main">
+        <div class="container">
         <section class="your-life">
 
-        <h2 class="your-life__title">
-            your life is WebDev
-        </h2>
-        <div class="your-life__description">
-            Whatever the approach to development may be, the final program must satisfy some fundamental properties
-        </div>
-        <div class="your-life__btn">
-            <a href="#" class="btn">
-                get started
-            </a>
-        </div>
-        <div class="your-life-links">
-            <div class="your-life-links__item">
-                <a href="#"><img width="100%" height="100%" src="assets/img/mail-icon.svg" alt="mail-icon"></a></div>
-            <div class="your-life-links__item">
-                <a href="#"><img width="100%" height="100%" src="assets/img/fb-icon.svg" alt="fb-icon"></a></div>
-            <div class="your-life-links__item">
-                <a href="#"><img width="100%" height="100%" src="assets/img/inst-icon.svg" alt="inst-icon"></a></div>
-            <div class="your-life-links__item">
-                <a href="#"><img width="100%" height="100%" src="assets/img/yt-icon.svg" alt="yt-icon"></a></div>
-        </div>
-    </section>
+            <h2 class="your-life__title">
+                your life is WebDev
+            </h2>
+            <div class="your-life__description">
+                Whatever the approach to development may be, the final program must satisfy some fundamental properties
+            </div>
+            <div class="your-life__btn">
+                <a href="#" class="btn">
+                    get started
+                </a>
+            </div>
+            <div class="your-life-links">
+                <div class="your-life-links__item">
+                    <a href="#"><img width="100%" height="100%" src="assets/img/mail-icon.svg" alt="mail-icon"></a>
+                </div>
+                <div class="your-life-links__item">
+                    <a href="#"><img width="100%" height="100%" src="assets/img/fb-icon.svg" alt="fb-icon"></a></div>
+                <div class="your-life-links__item">
+                    <a href="#"><img width="100%" height="100%" src="assets/img/inst-icon.svg" alt="inst-icon"></a>
+                </div>
+                <div class="your-life-links__item">
+                    <a href="#"><img width="100%" height="100%" src="assets/img/yt-icon.svg" alt="yt-icon"></a></div>
+            </div>
+        </section>
+        <section class="rappresent">
+            <div class="rappresent-container">
+                <div class="rappresent-left">
+                    <div class="rappresent-title">Rappresent your idea with
+                        a smart Design</div>
+                    <div class="rappresent-description">Tasks accompanying and related to programming include: testing,
+                        debugging,
+                        source code maintenance, <strong>implementation of build systems,</strong> and management of
+                        derived artifacts,
+                        such as
+                        the machine code of computer programs.
+                    </div>
+                    <div class="rappresent-btn">
+                        <a href="#" class="btn">get started</a>
+                    </div>
+                </div>
+                <div class="rappresent-right">
+                    <img class="rappresent-img" src="assets/img/rappresent-img.png" alt="rappresent-img">
+                </div>
+            </div>
+        </section>
+        <section class="our-community">
+            <div class="arrows-container">
+                <div class="arrow arrow-left"><img src="assets/img/arrow-left.svg" alt="arrow"></div>
+                <span class="our-community-right__digit">1</span>
+                <span class="our-community-right__digit">/</span>
+                <span class="our-community-right__digit">5</span>
+                <div class="arrow arrow-right"><img src="assets/img/arrow-right.svg" alt="arrow"></div>
+            </div>
+            <div class="our-community-container">
+                <div class="our-community-left">
+                    <div class="our-community__img">
+                        <img src="assets/img/our-community-img.png" alt="our-community-img">
+                    </div>
+                    <div class="our-community__title">our community</div>
+                    <div class="our-community__description">A hacker is any skilled computer
+                        expert that uses their technical
+                        knowledge to overcome a problem, but it can also mean a
+                        security hacker in common language
+                    </div>
+                </div>
+                <div class="our-community-right">
+                    <div class="our-community-images">
+                        <div class="our-community-images__item"><img src="assets/img/slide-1.png" alt="slide"></div>
+                        <div class="our-community-images__item"><img src="assets/img/slide-2.png" alt="slide"></div>
+                        <div class="our-community-images__item"><img src="assets/img/slide-3.png" alt="slide"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="implement">
+            <div class="implement-container">
+                <div class="implement-left">
+                    <div class="implement-left__img">
+                        <img src="assets/img/implement-img.png" alt="implement-img">
+                    </div>
+                </div>
+                <div class="implement-right">
+                    <div class="implement-right__title">Implement right Code</div>
+                    <div class="implement-right__description">These might be considered part of the <strong>programming process,
+                    </strong>  
+                        but often the term software development is used for this larger 
+                        process with the term programming, implementation
+                    </div>
+                    <div class="implement-right__btn"><a href="#" class="btn">Learn more</a></div>
+                </div>
+            </div>
+        </section>
+        <section class="subscribe">
+            <div class="subscribe-title">sign up for our newsletter</div>
+            <form action="#" class="subscribe-form">
+                <input placeholder="E-mail" type="text" class="subscribe-input">
+                <button class="subscribe-btn"></button>
+            </form>
+        </section>
+    </div>
     </main>
-    <footer></footer>
+    <footer class="footer">
+        <div class="footer-container">
+            <ul class="footer-list">
+                <li class="footer-list__item">Credits</li>
+                <li class="footer-list__item">Privacy</li>
+                <li class="footer-list__item">Our teams</li>
+            </ul>
+            <div class="footer-logo">
+                <img src="assets/img/logo.svg" alt="logo">
+            </div>
+            <div class="footer-text">
+                by TonYem for RSS at 2020
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
