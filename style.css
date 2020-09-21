@@ -53,6 +53,7 @@ a {
 h1 {
     position: absolute;
     z-index: -3;
+    color: transparent;
 }
 
 .header-container {
@@ -63,6 +64,8 @@ h1 {
 .header {
     padding: 25px 0px;
     background-color: #000000;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 .nav {}
@@ -331,13 +334,121 @@ h1 {
 }
 
 .subscribe-input {
-    padding: 14px 277px 12px 24px;
+    padding: 14px 206px 12px 24px;
+    font-size: 1.4rem;
 }
 
-.subscribe-inpu::placeholder {      
+.subscribe-inpu::placeholder {
     font-size: 1.4rem;
     line-height: 140%;
     color: #373737;
 }
 
-.subscribe-btn {}
+.subscribe-btn {
+    background: #00AFDB;
+    border: 0;
+    outline: 0;
+    padding: 22px 33px;
+    margin-left: -64px;
+    position: relative;
+}
+
+.subscribe-btn::after {
+    content: "";
+    background-image: url("assets/img/checked.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    margin-left: -50%;
+    top: 0%;
+}
+
+.download {
+    padding-top: 120px;
+    padding-bottom: 180px;
+}
+
+.download-title {
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+    margin-bottom: 20px;
+}
+
+.download-description {
+    margin: 0 auto;
+    font-size: 1.4rem;
+    line-height: 140%;
+    text-align: center;
+    color: #4E4E4E;
+    max-width: 483px;
+    margin-bottom: 30px;
+}
+
+.download-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.download-btn {
+    padding: 16px 18px;
+    background: #00AFDB;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.btn-appstore {
+    margin-right: 30px;
+}
+
+.footer {
+    max-width: 1600px;
+    margin: 0 auto;
+    background: #000000;
+    padding: 60px 160px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-list {
+    display: flex;
+}
+
+.footer-list__item {
+    font-size: 1.4rem;
+    line-height: 140%;
+    color: #FFFFFF;
+    opacity: 0.98;
+    margin-right: 40px;
+    transition: all 2s;
+}
+
+.footer-list__item:hover {
+    opacity: 1;
+    border-bottom: 1px solid #fff;
+}
+
+.footer-logo {}
+
+.footer-text {
+    font-size: 1.4rem;
+    line-height: 140%;
+    text-align: center;
+    color: #818181;
+}
