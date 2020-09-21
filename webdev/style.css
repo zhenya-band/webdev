@@ -68,15 +68,11 @@ h1 {
     margin: 0 auto;
 }
 
-.nav {}
-
 .nav-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-.nav-list__item {}
 
 .nav-list__item-link {
     font-size: 1.4rem;
@@ -151,8 +147,6 @@ h1 {
     margin-right: 30px;
 }
 
-.rappresent {}
-
 .rappresent-container {
     max-width: 1062px;
     margin: 0 auto;
@@ -162,8 +156,6 @@ h1 {
     justify-content: space-around;
     align-items: center;
 }
-
-.rappresent-left {}
 
 .rappresent-title {
     font-weight: bold;
@@ -183,14 +175,6 @@ h1 {
     margin-bottom: 30px;
     max-width: 62%;
 }
-
-.rappresent-btn {}
-
-.btn {}
-
-.rappresent-right {}
-
-.rappresent-img {}
 
 .our-community {
     background: #F5F6F7;
@@ -293,10 +277,6 @@ h1 {
     margin-right: 139px;
 }
 
-.implement-left__img {}
-
-.implement-right {}
-
 .implement-right__title {
     font-weight: bold;
     font-size: 2.4rem;
@@ -315,10 +295,6 @@ h1 {
     margin-bottom: 30px;
     max-width: 80%;
 }
-
-.implement-right__btn {}
-
-.btn {}
 
 .subscribe {
     background-image: url("assets/img/subscribe.png");
@@ -500,8 +476,13 @@ h1 {
     line-height: 140%;
     color: #FFFFFF;
     opacity: 0.98;
+    transition: all 0.2s;
+}
+
+.footer-list__item:not(:last-child) {
+    /* border-right: 1px solid #4E4E4E;
+    padding-right: 20px; */
     margin-right: 40px;
-    transition: all 2s;
 }
 
 .footer-list__item:hover {
